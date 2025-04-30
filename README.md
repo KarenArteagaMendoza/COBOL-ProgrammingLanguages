@@ -1,6 +1,6 @@
 # Introduction to COBOL — Course Repository
 
-Welcome to the official repository for the “Introduction to COBOL” course. This repository contains all the source code, examples, exercises, notes, and supplemental materials used throughout the course. Whether you’re a student, instructor, or self-learner, this collection is designed to help you understand the fundamentals of COBOL programming and explore its modern-day applications.
+Welcome to the repository for the “Introduction to COBOL” course. This repository contains all the source code, examples, exercises, notes, and supplemental materials used throughout the course. Whether you’re a student, instructor, or self-learner, this collection is designed to help you understand the fundamentals of COBOL programming and explore its modern-day applications.
 
 ---
 
@@ -19,11 +19,10 @@ The course provides a practical introduction to COBOL, one of the longest-standi
 
 ## 📝 Contents
 
-- `polynomial.cob` — A module implementing various polynomial operations in COBOL
-- `polynomials.cob` — A sample main program demonstrating polynomial addition, composition, differentiation, etc.
+- `Polynomials/polynomial.cob` — A module implementing various polynomial operations in COBOL
+- `Polynomials/polynomials.cob` — A sample main program demonstrating polynomial addition, composition, differentiation, etc.
 - `code/` — Folder for practice scripts, examples, and exercises
 - `docs/` — Slides, guides, cheat sheets, and course handouts
-- `assignments/` — Practice problems and project templates
 - `README.md` — This documentation file
 
 ---
@@ -71,8 +70,8 @@ cobc -v
 To compile the polynomial module and main program:
 
 ```bash
-cobc -free -m polynomial.cob
-cobc -free -x polynomials.cob polynomial.o
+cobc -free -m Plynomial/polynomial.cob
+cobc -free -x Polynomial/polynomials.cob Polynomial/polynomial.cob
 ```
 
 Then run:
