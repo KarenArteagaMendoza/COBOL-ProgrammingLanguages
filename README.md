@@ -22,7 +22,7 @@ The course provides a practical introduction to COBOL, one of the longest-standi
 - `Polynomials/polynomial.cob` — A module implementing various polynomial operations in COBOL
 - `Polynomials/polynomials.cob` — A sample main program demonstrating polynomial addition, composition, differentiation, etc.
 - `code/` — Folder for practice scripts, examples, and exercises
-- `docs/` — Slides, guides, cheat sheets, and course handouts
+- `docs/` — Slides, guide and exam
 - `README.md` — This documentation file
 
 ---
