@@ -1,5 +1,6 @@
        IDENTIFICATION DIVISION.
        PROGRAM-ID. PolynomialsMain.
+       AUTHOR. Karen-Arteaga-Mendoza.
 
        DATA DIVISION.
        WORKING-STORAGE SECTION.
