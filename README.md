@@ -70,7 +70,7 @@ cobc -v
 To compile the polynomial module and main program:
 
 ```bash
-cobc -free -m Plynomial/polynomial.cob
+cobc -free -m Polynomial/polynomial.cob
 cobc -free -x Polynomial/polynomials.cob Polynomial/polynomial.cob
 ```
 
