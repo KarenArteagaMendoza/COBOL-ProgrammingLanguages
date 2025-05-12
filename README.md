@@ -52,7 +52,7 @@ cobc -v
 
 ```bash
 sudo apt update
-sudo apt install open-cobol
+sudo apt install gnu-cobol
 ```
 
 To verify:
